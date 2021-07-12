@@ -174,6 +174,6 @@ export const state = () => ({
 
 export const getters = {
     getProductById: (state) => (id) => {
-        return state.products.find(product =>typeof x === "undefined" || product.id === id)
+        return state.products.find(product => product.id === id)
     } 
 }

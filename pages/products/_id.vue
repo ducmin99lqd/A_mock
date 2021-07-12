@@ -10,7 +10,7 @@
     export default {
         computed:{
             product(){
-                return this.$store.getters.getProductById(this.$route.params.id)
+                return this.$store.getters.getProductById(Number(this.$route.params.id))
             }
         }
     }
